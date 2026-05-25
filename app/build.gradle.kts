@@ -93,6 +93,11 @@ dependencies {
     // Serialization
     implementation(libs.kotlinx.serialization.json)
 
+    //retrofit
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+    implementation(libs.logging.interceptor)
+
     // Timber
     implementation(libs.timber)
 
